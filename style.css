@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+header {
+  background-color: #293241;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+header h1 {
+  font-size: 2rem;
+}
+.contact-links {
+  margin-top: 1rem;
+}
+.contact-links a {
+  margin: 0 0.5rem;
+  color: #ffc107;
+  text-decoration: none;
+}
+.resume-btn {
+  background: #007bff;
+  color: white;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+nav {
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+section h2 {
+  border-bottom: 2px solid #eee;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  color: #007bff;
+}
+.project {
+  margin-bottom: 1rem;
+}
+footer {
+  background-color: #293241;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  transform: translateX(-5px); /* gently shifts the whole group left */
+}
+
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffc107;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin-right: 10px; /* shifts image a bit left relative to text */
+}
+
+
+.header-text {
+  text-align: center;
+}
